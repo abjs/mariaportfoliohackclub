@@ -3,47 +3,54 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
+      <title>Portfolio site template</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="./all.css">
-	  <link rel="icon" href="favicon.ico">
-      <script src="./jquery.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="script.js"></script>
-      <title>Maria Ashigha</title>
   </head>
     <body>
 	  
         <div class="container">
 	  
 		<!--────────────────Header───────────────-->
-	<header>
+		<header>
 
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" 
-      href="#about">about</a></li>
-			<li><a class="nav-link" 
-      href="#skills">skills</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
+			<nav>	
+			 <ul class="nav-bar"><div class="bg"></div>
+				<li><a class="nav-link active" href="#home">Home</a></li>
+				<li><a class="nav-link" 
+		  href="#about">about</a></li>
 			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main> 
+		  <li><a class="nav-link" 
+			href="#achivements">achivements</a></li>
+			<li><a class="nav-link" 
+				href="#skills">skills</a></li>
+				<li><a class="nav-link" href="#contact">Contact</a></li>
+			 </ul>
+				
+				<div class="hamburger">
+					<div class="line1"></div>
+				<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+		</header>
+		<main> 
 		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Helloo, I'm MARIA ASHIGHA<hr></h3>
-		  <p>A computer science student passionate about programming and design.</p> 
+		<div id="home">
+			<div class="filter"></div>
+			<section class="intro">
+			 <h3>Hello!<br/>I'm MARIA ASHIGHA<hr></h3>
+			 <p>A computer science student passionate about programming and design.</p> 
+			</section>  
+		
+			 
 		 </section> 
-    <!--─────────────────about────────────────--> 
 	  </div>  
+		  <!--─────────────────about────────────────--> 
+	
 		<div id="about">
 		 <div class="filter"></div>
 		 <section class="intro">
@@ -57,63 +64,107 @@
       </div>
       </div>
 		 </section> 
-	  </div>  
+	  </div> 
+	   <!--───────────────achivements───────────────-->
+	   <div id="achivements">
+		<section class="intro"> 
+		   <h3>My achivements<hr></h3>
+		   <p>Here are the certificates of courses I successfully completed,</p>
+			<div class="work-box">
+			<div class="work">
+		  <!--───────────────card───────────────-->
+			  <div class="card">
+				  <img class="work-img" style="height: auto"> 
+			<img src="nptl.jpg" alt="image of nptl certificate" width="144" height="150">
+				  <div class="work-content">Course on C programming by NPTEL</div></a>
+			  </div>
+
+			  <div class="card">
+				<img class="work-img" style="height: auto"> 
+		  <img src="py for every.jpg" alt="image of python certificate" width="144" height="150">
+				<div class="work-content">Course on Python programming</div></a>
+			</div>
+			
+			<div class="card">
+				<img class="work-img" style="height: auto"> 
+		  <img src="py ds.jpg" alt="image of python certificate" width="144" height="150">
+				<div class="work-content">Course on Python Data Structures</div></a>
+			</div>
 		
+			<div class="card">
+				<img class="work-img" style="height: auto"> 
+		  <img src="bussines tran cloud.jpg" alt="image of cloud certificate" width="144" height="150">
+				<div class="work-content">Course on Business transformation using Google Cloud </div></a>
+			</div>
+
+			<div class="card">
+				<img class="work-img" style="height: auto"> 
+		  <img src="cloud funda.jpg" alt="image of cloud certificate" width="144" height="150">
+				<div class="work-content">Course on Google Cloud Fundamentals </div></a>
+			</div>
+			</div>
+			</div>
+			</section>
+			</div>
 	  <!--───────────────skills───────────────-->
 	  <div id="skills">
-      <section class="intro"> 
-		 <h3>My skills<hr></h3>
-		  <p>Here are my skills,</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
+		<section class="intro"> 
+		   <h3>My skills<hr></h3>
+			<p>Here are my skills,</p>
+			<div class="work-box">
+			<div class="work">
+		  <!--───────────────card───────────────-->
+			  <div class="card">
+				  <img class="work-img" style="height: auto"> 
+			<img src="css.jpg" alt="image of css" width="144" height="150">
+				  <div class="work-content">Basic understanding of HTML and CSS.</div></a>
+			  </div>
+			  <div class="card">
+				  <img class="work-img" style="height: auto">
+			<img src="cp.jpg" alt="image of c programing" width="144" height="150">
+				  <div class="work-content"> Proficient in C Programming</div></a>
+			  </div>
 			<div class="card">
-			    <img class="work-img" style="height: auto"> 
-          <img src="css.jpg" alt="image of css" width="144" height="150">
-				<div class="work-content">Basic understanding of HTML and CSS.</div></a>
-            </div>
+				  <img class="work-img" style="height: auto">
+			<img src="pydj.png" alt="image of pyton django" width="144" height="150">
+			<div class="work-content" style="    font-size: 13px;">Proficient in Python and Beginner in Django frameworks.</div></a>
+			  </div>
+			  <div class="card">
+				  <img class="work-img" style="height: auto">
+			<img src="mngmnt.jpeg" alt="image of management" width="144" height="150">
+				  <div class="work-content">Good communication and Management skills.</div></a>
+			  </div> 
+			  <div class="card">
+				  <img class="work-img" style="height: auto">
+			<img src="wxp.jpg" alt="image of excel" width="144" height="150">
+				  <div class="work-content">Good in MS-OFFICE and Excel.</div></a>
+			  </div>
 			<div class="card">
-			    <img class="work-img" style="height: auto">
-          <img src="cp.jpg" alt="image of c programing" width="144" height="150">
-				<div class="work-content"> Proficient in C Programming</div></a>
-            </div>
-          <div class="card">
-			    <img class="work-img" style="height: auto">
-          <img src="pydj.png" alt="image of pyton django" width="144" height="150">
-          <div class="work-content" style="    font-size: 13px;">Proficient in Python and Beginner in Django frameworks.</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" style="height: auto">
-          <img src="mngmnt.jpeg" alt="image of management" width="144" height="150">
-				<div class="work-content">Good communication and Management skills.</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" style="height: auto">
-          <img src="wxp.jpg" alt="image of excel" width="144" height="150">
-				<div class="work-content">Good in MS-OFFICE and Excel.</div></a>
-            </div>
-          <div class="card">
-			    <img class="work-img" style="height: auto">
-          <img src="sql.jpg" alt="image of sql" width="144" height="150">
-				<div class="work-content">Familiar with SQL.</div></a>
-            </div>
-		  </div>
-		  </div>
-	  </div>
-		 
+				  <img class="work-img" style="height: auto">
+			<img src="sql.jpg" alt="image of sql" width="144" height="150">
+				  <div class="work-content">Familiar with SQL.</div></a>
+			  </div>
+			  </div>
+			  </div>
+		   </section>
+		   </div>
 		<!--──────────────Contact────────────────-->
 	  <div id="contact">
 		  <!--────social media links─────-->
-		   <h3>Contact<hr></h3>
-		   <p align="center" style="width: 54%;">On the off chance that you might want to connect with me, be it for investigating innovation, business, or to simply say hello, don't hesitate to send me an email at <a style="    color: turquoise;">mariaashigha@gmail.com</a></p>
+		   <h3>Contact.<hr></h3>
+		   <p>Feel free to contact me on my social media.</p>
+		    <div class="social-media">
+			  <a title="GitHub" href="https://github.com/MariaAshigha" target="_blank"><i class='fab fa-github'></i></a>
+			  <a title="Gmail" href = "mailto:mariaashigha@gmail.com" href="#" target="_blank"><i class='fab fa-google'></i></a>
+			  <a title="Instagram" href="https://instagram.com/the_dendrophile__" target="_blank"><i class='fab fa-instagram'></i></a>
 		    </div>
 		  </div>
 
 	</main>
-	  <footer class="copyright">© 2020 
+	  <!-- <footer class="copyright">© 2020 
 		  <a href="https://repl.it/@lilykhan" target="_blank"> Lilykhan.</a>
-    </footer>
+     </footer> -->
 	  
   </div>
-  </bodhy>
+  </body>
 </html>
